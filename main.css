@@ -1,9 +1,12 @@
-﻿body {
+body {
     margin: 0;
     background-color: #0F0F0F;
-    font-family: 'Helvetica';
+    font-family: 'Arial';
     font-weight: 700;
 }
+
+::-webkit-scrollbar { 
+    display: none;}
 
 .nav {
     margin-top: 5em;
@@ -121,7 +124,7 @@ width: 100%; padding-bottom: 10em; background-color: #F2F2F2;}
     display: inline-block;
 }
 
-il{left: 2em; position: absolute; text-decoration: underline}
+.il {left: 2em; position: absolute; text-decoration: underline}
 
 
 #rodape {
